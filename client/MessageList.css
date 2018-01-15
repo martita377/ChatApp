@@ -1,8 +1,17 @@
 .MessageList {
-    flex: 1;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: flex-start;
-    width: 75vw;
-	margin: 20px;
+    margin: 20px;
+}
+
+.Message {
+	background-color: #ebebf4;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-bottom: 10px;
+	padding: 10px;
+	word-break: break-all;
 }

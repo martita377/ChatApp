@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 * {
     box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body {
     margin: 0;
+    padding: 0;
+    font-size: 20px;
 }
 
 .App {
@@ -11,21 +16,25 @@ body {
     flex-direction: column;
     flex: 1;
     height: 100vh;
+    overflow: hidden;
 }
 
 .AppHeader {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
 }
 
 .AppTitle {
+    background-color: #000;
+    border-right: 1px solid #000;
+    color: #fff;
     display: flex;
-    width: 25vw;
-    border-right: 1px solid #ccc;
+    font-weight: bold;
     justify-content: center;
     padding: 20px;
+    width: 25vw;
 }
 
 .AppRoom {
@@ -34,6 +43,8 @@ body {
     justify-content: center;
     box-sizing: border-box;
     padding: 20px;
+    background-color: #d4d4dd;
+    font-weight: bold;
 }
 
 .AppBody {

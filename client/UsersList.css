@@ -1,17 +1,19 @@
 .Users {
     display: flex;
-    flex: 1;
-    width: 25vw;
     justify-content: flex-start;
     flex-direction: column;
     border-right: 1px solid #ccc;
-    border: 1px solid red;
+    background-color: #d4d4dd;
+    width: 25vw;
 }
 
 .UsersOnline {
+    background-color: #8db5e0;
+    font-size: 16px;
+    font-weight: bold;
     padding: 20px;
     text-align: center;
-    background: #ccc;
+    width: 25vw;
 }
 
 .UsersList {
