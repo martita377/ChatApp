@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cross-env NODE_ENV=production webpack --config ./webpack.config.js",
-    "start": "webpack-dev-server --inline --hot --config ./webpack.config.js"
+    "start:fe": "webpack-dev-server --inline --hot --config ./webpack.config.js",
+    "start:be" : "node index",
+    "start" : "concurrently \"npm run start:fe\" \"npm run start:be\""
   },
   "keywords": [],
   "author": "Marta P",
